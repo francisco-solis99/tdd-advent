@@ -1,0 +1,21 @@
+{
+  "name": "tdd-challengues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challengue18.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "vitest": "^0.26.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
